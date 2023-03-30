@@ -1,0 +1,148 @@
+*,
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: orangered;
+}
+
+.container{
+    border: 1px solid yellow;
+    margin: 50px 70px;
+    height: 500px;
+    background-color: yellow;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    
+}
+
+.judul{
+    text-align: center;
+    background-color: yellow;
+    margin: 20px 20px;
+}
+
+.search{
+    background-color: yellow;
+    text-align: center;
+}
+
+.search input{
+    background-color: white;
+    border-radius: 10px;
+    border: white;
+    height: 30px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
+
+.search button{
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
+.baris1{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+
+.box1{
+    border: none; 
+    border-radius: 8px;
+    background-color: aqua;
+    margin: 20px 20px;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.box2{
+    border: none; 
+    border-radius: 8px;
+    background-color: aqua;
+    margin: 20px 20px;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.box3{
+    border: none; 
+    border-radius: 8px;
+    background-color: aqua;
+    margin: 20px 20px;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.box4{
+    border: none; 
+    border-radius: 8px;
+    background-color: aqua;
+    margin: 20px 20px;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.box5{
+    border: none; 
+    border-radius: 8px;
+    background-color: aqua;
+    margin: 20px 20px;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.box6{
+    border: none; 
+    border-radius: 8px;
+    background-color: aqua;
+    margin: 20px 20px;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.jbox {
+    background-color: aqua;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: aqua;
+    margin: 10px 10px;
+}
+
+p {
+    font-weight: bold;
+}
+
+img{
+    background-color: aqua;
+    justify-content: center;
+}

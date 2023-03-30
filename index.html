@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 TRACKER</title>
+    
+    <link rel="stylesheet" href="./src/style/global.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1 class="judul">COVID-19 TRACKER</h1>
+
+        <div class="search">
+            <input id="input-id" type="text">
+            <button id="btn-search">Get Data</button>
+        </div>
+
+        <div class="baris1">
+            <div class="box1">
+                <img src="src/assets/images/temperature.png" width="30px" height="30px">
+                <p class="jbox">Active Cases</p>
+                <span class="data" id="Active-Cases"></span>
+            </div>
+            <div class="box2">
+                <img src="src/assets/images/covid-test (1).png" width="30px" height="30px">
+                <p class="jbox">New Cases</p>
+                <span class="data" id="New-Cases"></span>
+            </div>
+            <div class="box3">
+                <img src="src/assets/images/healthy.png" width="30px" height="30px">
+                <p class="jbox">Recovered Cases</p>
+                <span class="data" id="Recovered-Cases"></span>
+            </div>
+        </div>
+
+        <div class="baris1">
+            <div class="box4">
+                <img src="src/assets/images/covid-test.png" width="30px" height="30px">
+                <p class="jbox">Total Cases</p>
+                <span class="data" id="Total-Cases"></span>
+            </div>
+            <div class="box5">
+                <img src="src/assets/images/death.png" width="30px" height="30px">
+                <p class="jbox">Total Deaths</p>
+                <span class="data" id="Total-Deaths"></span>
+            </div>
+            <div class="box6">
+                <img src="src/assets/images/pcr-test.png" width="30px" height="30px">
+                <p class="jbox">Total Tests</p>
+                <span class="data" id="Total-Tests"></span>
+            </div>
+        </div>
+        
+    </div>
+
+    
+    
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
